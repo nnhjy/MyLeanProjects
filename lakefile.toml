@@ -16,3 +16,12 @@ rev = "v4.30.0"
 
 [[lean_lib]]
 name = "MyLeanProjects"
+
+[[lean_lib]]
+name = "FourierMotzkinElimination"
+
+# Options scoped to the FourierMotzkinElimination library only (merged with the
+# package-level [leanOptions] above; the `MyLeanProjects` library is unaffected).
+[lean_lib.leanOptions]
+warningAsError = false
+weak.linter.style.emptyLine = false
