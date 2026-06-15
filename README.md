@@ -7,7 +7,9 @@ My formalisation projects in `Lean`
 ## Initialisation
 
 ```bash
-cd path/to/MyLeanProjects
+git clone https://github.com/nnhjy/MyLeanProjects.git 
+cd MyLeanProjects
+
 lake exe cache get
 lake build
 ```
@@ -16,10 +18,10 @@ lake build
 
 - [Lean 4 Documentation](https://lean-lang.org/lean4/doc/)
 - [Mathlib Docs](https://leanprover-community.github.io/mathlib4_docs/)
-- [Logical Verification Guide 2026](https://github.com/lean-forward/logical_verification_2026) [中](https://github.com/Lean-zh/LoVe-zh)
+- [Logical Verification Guide 2026](https://github.com/lean-forward/logical_verification_2026) [(中译)](https://github.com/Lean-zh/LoVe-zh)
 - [Theorem proving in Lean (TPIL)](https://leanprover.github.io/theorem_proving_in_lean4/) [中](https://www.leanprover.cn/tp-lean-zh/)
-- [Mathematics in Lean (MIL)](https://leanprover-community.github.io/mathematics_in_lean/#) [中](https://www.leanprover.cn/math-in-lean-zh/)
-- [Functional programming in Lean (FPIL)](https://lean-lang.org/functional_programming_in_lean/) [中](https://www.leanprover.cn/fp-lean-zh/)
+- [Mathematics in Lean (MIL)](https://leanprover-community.github.io/mathematics_in_lean/#) [(中译)](https://www.leanprover.cn/math-in-lean-zh/)
+- [Functional programming in Lean (FPIL)](https://lean-lang.org/functional_programming_in_lean/) [(中译)](https://www.leanprover.cn/fp-lean-zh/)
 
 ## GitHub configuration
 
